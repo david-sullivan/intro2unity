@@ -21,7 +21,7 @@ public class moveSin : MonoBehaviour
         float xPos = Mathf.Clamp(xValue, xMin, xMax);
 
         // Update the position of the cube.
-        transform.position = new Vector3(xPos, 0.0f, 0.0f);
+        transform.position = new Vector3(xPos, 4.0f, 0.0f);
 
         // Increase animation time.
         timeValue = timeValue + Time.deltaTime;
