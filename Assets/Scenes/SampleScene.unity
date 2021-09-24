@@ -166,14 +166,13 @@ GameObject:
   - component: {fileID: 73926720}
   - component: {fileID: 73926722}
   - component: {fileID: 73926721}
-  - component: {fileID: 73926723}
   m_Layer: 5
   m_Name: Text
   m_TagString: circleDone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &73926720
 RectTransform:
   m_ObjectHideFlags: 0
@@ -200,7 +199,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73926719}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -235,18 +234,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73926719}
   m_CullTransparentMesh: 1
---- !u!114 &73926723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73926719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b36c7140f039794ea0f4026d5753410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &311793290
 GameObject:
   m_ObjectHideFlags: 0

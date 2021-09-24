@@ -8,6 +8,6 @@ public class showObject : MonoBehaviour
     // Start is called before the first frame update
     public void Show(string ObjectTag)
     {
-        GameObject.FindWithTag(ObjectTag).GetComponent<Text>().enabled = true;
+        GameObject.FindWithTag(ObjectTag).GetComponent<Text>().enabled = !GameObject.FindWithTag(ObjectTag).GetComponent<Text>().enabled;
     }
 }
