@@ -906,6 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 154ee55d0cfc7344ea1bdd1db88de949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1633768798}
 --- !u!95 &948851074
 Animator:
   serializedVersion: 3
@@ -6454,6 +6455,11 @@ Transform:
   m_Father: {fileID: 4108383}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1633768798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+  m_PrefabInstance: {fileID: 570366755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1664333759
 GameObject:
   m_ObjectHideFlags: 0

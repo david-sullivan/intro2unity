@@ -5,31 +5,29 @@ using UnityEngine.InputSystem;
 
 public class key2Color : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform target;//the transform (position) of the game object to target
 
     // Update is called once per frame
     void Update()
     {
-        /////////////////old input system//////////////
-        //if (Input.GetKeyDown(KeyCode.R))
-        //{
-        //    GetComponent<Renderer>().material.color = Color.red;
-        //}
-        //if (Input.GetKeyDown(KeyCode.G))
-        //{
-        //    GetComponent<Renderer>().material.color = Color.green;
-        //}
-        //if (Input.GetKeyDown(KeyCode.B))
-        //{
-        //    GetComponent<Renderer>().material.color = Color.blue;
-        //}
+        
+    transform.LookAt(target);
+    /////////////////old input system//////////////
+    //if (Input.GetKeyDown(KeyCode.R))
+    //{
+    //    GetComponent<Renderer>().material.color = Color.red;
+    //}
+    //if (Input.GetKeyDown(KeyCode.G))
+    //{
+    //    GetComponent<Renderer>().material.color = Color.green;
+    //}
+    //if (Input.GetKeyDown(KeyCode.B))
+    //{
+    //    GetComponent<Renderer>().material.color = Color.blue;
+    //}
 
-////////////////new input system////////////////////////////
-        Vector2 mousePosition = Mouse.current.position.ReadValue(); //this is a variable called mousePosition of vector2 (2 values)
+    ////////////////new input system////////////////////////////
+    Vector2 mousePosition = Mouse.current.position.ReadValue(); //this is a variable called mousePosition of vector2 (2 values)
                                                                     /// transform.Translate(mousePosition.x, 1 + mousePosition.y, 0);
        Debug.Log("mouse position is " + mousePosition);
         float mouseScreeenPercentageX =  mousePosition.x/Screen.width;
