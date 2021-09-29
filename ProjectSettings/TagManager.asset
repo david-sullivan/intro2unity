@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - circleDone
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX

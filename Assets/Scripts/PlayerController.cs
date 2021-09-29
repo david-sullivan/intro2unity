@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     //public exposes these variables in the editor under the script's component
     public float jumpForce;
     public float gravityModifier;
+    public bool gameOver = false;
 
     public bool isOnGround = true;
 
@@ -40,6 +41,13 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //when it collides with something presumably the ground, set the boolean var to true again
-        isOnGround = true;
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }else if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            isOnGround = false;
+            Debug.Log("Game Over!");
+        }
     }
 }
