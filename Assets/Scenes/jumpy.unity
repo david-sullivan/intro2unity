@@ -342,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 472821118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.813, y: 1, z: 1.7619}
+  m_LocalScale: {x: 10, y: 1, z: 1.7619}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -451,7 +451,6 @@ GameObject:
   - component: {fileID: 1315095008}
   - component: {fileID: 1315095007}
   - component: {fileID: 1315095006}
-  - component: {fileID: 1315095005}
   - component: {fileID: 1315095009}
   - component: {fileID: 1315095010}
   - component: {fileID: 1315095011}
@@ -462,20 +461,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1315095005
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315095004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1315095006
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -535,7 +520,7 @@ Transform:
   m_GameObject: {fileID: 1315095004}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 8.12, z: 9.3}
-  m_LocalScale: {x: 10.813, y: 1, z: 1.7619}
+  m_LocalScale: {x: 10, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -594,7 +579,7 @@ GameObject:
   - component: {fileID: 1489024669}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -613,6 +598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 12
   gravityModifier: 3
+  gameOver: 0
   isOnGround: 1
 --- !u!54 &1489024670
 Rigidbody:
