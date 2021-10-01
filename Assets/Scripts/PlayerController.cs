@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
             //since it is jumping, set the boolean var to false
             isOnGround = false;
             dirtParticle.Stop();
-            playerAudio.PlayOneShot(jumpSound, 1.0f);
+            playerAudio.PlayOneShot(jumpSound, 2.0f);
         }
         if(dirtParticle.isStopped)
         {
@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
             explosionParticle.Play();
             dirtParticle.Stop();
-            playerAudio.PlayOneShot(crashSound, 1.0f);
+            playerAudio.PlayOneShot(crashSound, 2.0f);
         }
     }
 }
