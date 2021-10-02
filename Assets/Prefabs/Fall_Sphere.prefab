@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2503542026164731244}
   - component: {fileID: 8681270508533681311}
   - component: {fileID: 1005817257214316173}
+  - component: {fileID: 4846762922961501026}
   m_Layer: 0
   m_Name: Fall_Sphere
   m_TagString: Untagged
@@ -93,7 +94,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2503542026164731247}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -121,5 +122,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf6ed1d7ecd455c4f858e78633fe7647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4846762922961501026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2503542026164731247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5831a1f089517674b94cc781b3fccd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

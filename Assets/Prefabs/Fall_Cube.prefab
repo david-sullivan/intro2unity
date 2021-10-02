@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1175745448743130528}
   - component: {fileID: 2702853119991402110}
   - component: {fileID: 1535928717733943203}
+  - component: {fileID: 9052496062299278261}
   m_Layer: 0
   m_Name: Fall_Cube
   m_TagString: Untagged
@@ -93,7 +94,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175745448743130529}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -121,5 +122,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf6ed1d7ecd455c4f858e78633fe7647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9052496062299278261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175745448743130529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5831a1f089517674b94cc781b3fccd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
