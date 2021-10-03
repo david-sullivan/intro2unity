@@ -5,8 +5,8 @@ using UnityEngine.InputSystem; //use the new input system
 
 public class Fall_SpawnManager : MonoBehaviour
 {
-    private float spawnRangeX = 20;
-    private float spawnPosZ = 20;
+    private float spawnRangeX = 18;
+    private float spawnPosZ = 6 ;
     private float startDelay = 2;
     private float spawnInterval = 1.5f;
 
@@ -29,7 +29,7 @@ public class Fall_SpawnManager : MonoBehaviour
 
     void SpawnRandomObject()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 1, spawnPosZ);
         int objectIndex = Random.Range(0, fallingObjectsPrefabs.Length);
         Instantiate(fallingObjectsPrefabs[objectIndex], spawnPos, fallingObjectsPrefabs[objectIndex].transform.rotation);
     }
