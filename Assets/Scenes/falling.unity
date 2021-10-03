@@ -252,6 +252,7 @@ MonoBehaviour:
   fallingObjectsPrefabs:
   - {fileID: 1175745448743130529, guid: 44808247476cb9642bffdef03b0b3f76, type: 3}
   - {fileID: 2503542026164731247, guid: d45ffc1aa393ac84cb9d0dff62bb71e7, type: 3}
+  - {fileID: 3387310906598109130, guid: 82b0ac026de77894b97f2cd9d386dc7d, type: 3}
 --- !u!4 &1006469468
 Transform:
   m_ObjectHideFlags: 0

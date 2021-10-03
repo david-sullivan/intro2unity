@@ -5,7 +5,7 @@ using UnityEngine.InputSystem; //use the new input system
 
 public class Fall_SpawnManager : MonoBehaviour
 {
-    private float spawnRangeX = 18;
+    private float spawnRangeX = 16;
     private float spawnPosZ = 6 ;
     private float startDelay = 2;
     private float spawnInterval = 1.5f;
